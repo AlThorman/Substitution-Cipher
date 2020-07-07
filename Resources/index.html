@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     
+     <title>Substitution Cipher  </title>
+     <link rel="stylesheet" href="css/main.css"/>
+     <link rel="stylesheet" href="css/util.css"/>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    </head>
+    
+ <body>
+     
+     <!--Navbar-->
+      
+    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark"> 
+        <div class="container">
+  <a class="navbar-brand" href="#">Substitution Cipher</a>
+            
+
+            <div class="collapse navbar-collapse" id="togglebutton"> 
+            <ul class="navbar-nav mr-auto"> 
+            <li class="nav-item"><a href="#encryption" class="nav-link" >Encryption </a></li> 
+            <li class="nav-item"><a href="#decryption" class="nav-link" >Decryption </a></li>
+            <li class="nav-item"><a href="#footer" class="nav-link" >About </a></li>
+
+            </ul>
+                
+
+            </div>
+                
+        </div>
+    </nav>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+
+
+
+
+
+
+<!--End of NavBar-->
+     
+     <!-- Encryption and Decryption -->
+     <div class="container-contact100">
+     <form name="form" id="encryption">
+     <h2>Encryption Method:</h2>
+         <br>
+
+         <div class="wrap-input100 validate-input">
+
+     <input type="text" name="keyPhrase" placeholder="Enter The Key" class="input100" data-validate="Please Enter The Key">
+             <span class="focus-input100"> </span>
+         </div>
+
+         <div class="wrap-input100 validate-input" >
+             <textarea placeholder="Enter Plaintext " data-validate="Please Enter The Plaintext" rows="5" cols="50" name="input" class="input100"></textarea> 
+             <span class="focus-input100"> </span></div>
+
+         <div class="wrap-input100 validate-input" >
+             <textarea placeholder="The ciphertext" rows="5" cols="50" name="output" class="input100"></textarea> 
+             <span class="focus-input100"> </span></div>
+         
+                  <div class="container-contact100-form-btn">
+					<button class="contact100-form-btn" type="button">
+						<span>
+							<i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
+							Encrypt
+						</span>
+					</button>
+				</div>
+       
+         </form>
+         
+         
+        
+     </div>
+     
+     <hr>
+     
+     <div class="container-contact100">
+      <form name="form2" id="decryption">
+          <h2> Decryption Method:</h2>
+          <br>
+
+         <div class="wrap-input100 validate-input">
+
+     <input type="text" name="keyPhrase" placeholder="Enter The Key" class="input100" data-validate="Please Enter The Key">
+             <span class="focus-input100"> </span>
+         </div>
+
+         <div class="wrap-input100 validate-input" >
+             <textarea placeholder="Enter ciphertext" rows="5" cols="50" name="input" class="input100" data-validate="Please Enter The Ciphertext"></textarea> 
+             <span class="focus-input100"> </span></div>
+
+         <div class="wrap-input100 validate-input" >
+             <textarea placeholder="The Plaintext" rows="5" cols="50" name="output" class="input100"></textarea> 
+             <span class="focus-input100"> </span></div>
+         
+                  <div class="container-contact100-form-btn">
+					<button class="contact100-form-btn" type="button">
+						<span>
+							<i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
+							Decrypt
+						</span>
+					</button>
+				</div>
+       
+         </form>
+     </div>
+     
+    <script src="JavaScript/Script.js"></script>
+     
+     <!-- End of Encryption and Decryption -->
+     
+     <!-- Footer -->
+     <div class="">
+
+    <!----------- Footer ------------>
+    <footer class="footer-bs" id="footer">
+        <div class="row">
+        	<div class="col-md-3 footer-brand animated fadeInLeft">
+            	<h4>About</h4>
+                <p> This website created by AbdulRahman AlThorman for implementing the Substitution Cipher methods project supervised by Dr. AbdulRaouf Khan. </p>
+                <p>&copy; 2020 All rights reserved </p>
+            </div>
+        	<div class="col-md-4 footer-nav animated fadeInUp">
+            	<h4>Student contact</h4>
+            	<div class="col-md-6">
+
+                </div>
+            	<div class="col-md-6">
+                    <ul class="list">
+                	<li><a href="https://www.linkedin.com/in/abdulrahman-althorman-696849187/" target="_blank">LinkedIn</a></li>
+                	<li><a href="http://twitter.com/AbdulRahmanFTH" target="_blank">Twitter</a></li>
+                	<li><a href="https://www.instagram.com/althorman" target="_blank">Instagram</a></li>
+                	<li><a href="mailto:AlThorman97@gmail.com" target="_blank">Email</a></li>
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+        	<div class="col-md-2 footer-social animated fadeInDown">
+            	<h4>Instructor contact</h4>
+            	<ul>
+                	<li><a href="https://www.linkedin.com/in/raoufkhan" target="_blank">LinkedIn</a></li>
+                	<li><a href="https://twitter.com/raoufkhan" target="_blank">Twitter</a></li>
+                	<li><a href="https://www.instagram.com/drraoufkhan/" target="_blank">Instagram</a></li>
+                	<li><a href="mailto:raoufkhan@kfu.edu.sa" target="_blank">Email</li>
+                </ul>
+
+        
+            </div>
+        </div>
+    </footer>
+
+</div>
+     
+     <!-- End of Footer -->
+    
+    </body>
+</html>
